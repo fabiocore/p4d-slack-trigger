@@ -10,4 +10,6 @@ A Python trigger to send messages into slack when users commit changes.
 - Change the variables values 'POST_URL' and 'CHANNEL'
 - Use 'p4 triggers' to configure the trigger like the example below
 
-p4d-slack-trigger change-submit //depot/... "/p4/p4d-slack-trigger.py %serverport% %change% %user%"`
+```
+p4d-slack-trigger change-submit //depot/... "/p4/p4d-slack-trigger.py %serverport% %change% %user%"
+```
